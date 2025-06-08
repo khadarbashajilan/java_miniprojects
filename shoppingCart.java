@@ -17,7 +17,7 @@ public class shoppingCart {
             item+="s";
         }
 
-        System.out.println("You have bought "+total_items+" "+item);
+        System.out.println("\nYou have bought "+total_items+" "+item);
         System.out.println("Yout total is "+price*total_items);
         scanner.close();
     }
