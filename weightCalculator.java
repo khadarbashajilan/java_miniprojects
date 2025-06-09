@@ -25,7 +25,7 @@ public class weightCalculator{
 
         String input="";
         String unit="";
-        int value=0;
+        double value=0;
         double calcWeight=0;
 
         System.out.println("kg <-> lbs");
@@ -35,12 +35,12 @@ public class weightCalculator{
         input.toLowerCase();
 
         if(input.contains("l")){
-            value = Integer.parseInt(input.substring(input.indexOf(input.charAt(0)),input.indexOf("l")));  
+            value = Double.parseDouble(input.substring(input.indexOf(input.charAt(0)),input.indexOf("l")));  
             calcWeight=value*0.453592;
             System.out.printf("The weigth is %.2f kg",calcWeight);
         }
         else if(input.contains("k")){
-            value = Integer.parseInt(input.substring(input.indexOf(input.charAt(0)),input.indexOf("k")));
+            value = Double.parseDouble(input.substring(input.indexOf(input.charAt(0)),input.indexOf("k")));
             calcWeight=value*2.20462;  
             System.out.printf("The weigth is %.2f lbs",calcWeight);
         }else{
