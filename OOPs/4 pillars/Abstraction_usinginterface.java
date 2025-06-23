@@ -33,7 +33,7 @@ class Warrior implements Actions {
     }
 }
 
-public class Playable {
+public class Abstraction_usinginterface {
     public static void main(String[] args) {
         Archer a1 = new Archer();
         Warrior w1 = new Warrior();

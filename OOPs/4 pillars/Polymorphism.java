@@ -28,6 +28,9 @@ class Dog extends Animal {
     void fetch(String item){
         System.out.print("Dog fetches the "+item+"!");
     }
+}
+public class Polymorphism{
+
     public static void main(String[] args) {
         Animal cat1 = new Cat();
         cat1.makesSound();

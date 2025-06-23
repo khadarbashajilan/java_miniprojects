@@ -48,13 +48,15 @@ class Circle extends Area {
 
 }
 
-public abstract class Area {
+abstract class Area {
     //abstract method
     abstract double area();
     //concrete method (inheritent)
     void display(){
         System.out.print("\nClass Area");
     }
+}
+public class Abstraction_usingabstratact{
 
     public static void main(String[] args) {
         Circle c1 = new Circle(2);

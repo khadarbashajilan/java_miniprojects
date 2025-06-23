@@ -31,7 +31,9 @@ class Vehicle{
         void displayDetails(){
         System.out.print("The brand is "+Brand+"and the year "+Year+" number of doors "+numDoors);
     }
-    
+}
+    public class Inheritance{
+
         public static void main(String[] args) {
             Car car1 = new Car("Benz", 2004, 8);
             car1.startEngine();

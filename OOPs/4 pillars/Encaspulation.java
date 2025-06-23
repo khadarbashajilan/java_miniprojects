@@ -39,7 +39,7 @@ class Bank{
     }
 
 }
-public class BankAccount {
+public class Encaspulation {
    
     public static void main(String[] args) {
         Bank acc1 = new Bank("Conor", 1000121);
